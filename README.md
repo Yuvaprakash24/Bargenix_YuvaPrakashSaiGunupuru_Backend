@@ -19,7 +19,6 @@ Then, Activate the virtual environment:
 ```pip install -r requirements.txt```
 5. Set Up Database
 A online PostgreSQL is setuped already you can check it in settings.py (No need to do anything)
-Just change DEBUG = False to DEBUG = True in line number 26 in settings.py
 7. Run the Server:
 Start the development server:
 ```python manage.py runserver```
