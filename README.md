@@ -36,8 +36,8 @@ A online PostgreSQL is setuped already you can check it in settings.py (No need 
 Start the development server:
 ```python manage.py runserver```
 
-Visit http://127.0.0.1:8000/ in your browser to view the project. And the end are shown in it!
-<img width="950" alt="{46C27B42-07AB-4DFD-841A-BC6282432FB1}" src="https://github.com/user-attachments/assets/bf77c202-892a-4db0-91cb-f3af7dfc58a8" />
+Visit http://127.0.0.1:8000/ in your browser to view the project. And the end are shown in it!<br>
+<img width="930" alt="{7D5C6B0C-87A3-4A54-9042-327C94777AC2}" src="https://github.com/user-attachments/assets/fc3765fb-da72-49c4-83d1-70f5213d0101" />
 <br>
 The end points are: <br>
 for products: host_name(like localhost/127.0.0.1:8000)/products/ <br>
