@@ -8,38 +8,38 @@ You can access the application here:  <br>
 The end points are for this live application are (Use Psotman API because CORS is not installed for this project): <br>
 for products: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/products/ <br>
 for coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/ <br>
-For coupons:
-Get is used to fetch the check the existing Coupons and POST is used to create Coupon(Post format):
-{
-        "product": 1,
-        "coupon_id": "Check-1",
-        "discount": 1,
-        "user_ids": "",
-        "expiry_date": "2024-12-27 10:25:00"
-}
-user_ids can be empty such that all users have access and for only specific persons if required it should be added as string with coma(,) for example "user_ids": "1,2,3,4,5"
-and expiry date as "yyyy-mm-dd hr:mins:secs"
-edit or delete coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/9/
-It can be 8 or 1 or 2 any coupon's id
-For edit set PUT and format as follows:
-{
-    "id": 9,
-    "product": 2,
-    "coupon_id": "NewCoupon-90",
-    "discount": "91.00",
-    "user_ids": "",
-    "expiry_date": "2024-12-27 10:25:00"
-}
-For delete put it to delete 
+For coupons: <br>
+Get is used to fetch the check the existing Coupons and POST is used to create Coupon(Post format): <br>
+{<br>
+        "product": 1,<br>
+        "coupon_id": "Check-1",<br>
+        "discount": 1,<br>
+        "user_ids": "",<br>
+        "expiry_date": "2024-12-27 10:25:00"<br>
+}<br>
+user_ids can be empty such that all users have access and for only specific persons if required it should be added as string with coma(,) for example "user_ids": "1,2,3,4,5"<br>
+and expiry date as "yyyy-mm-dd hr:mins:secs"<br>
+edit or delete coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/9/<br>
+It can be 8 or 1 or 2 any coupon's id<br>
+For edit set PUT and format as follows:<br>
+{<br>
+    "id": 9,<br>
+    "product": 2,<br>
+    "coupon_id": "NewCoupon-90",<br>
+    "discount": "91.00",<br>
+    "user_ids": "",<br>
+    "expiry_date": "2024-12-27 10:25:00"<br>
+}<br>
+For delete put it to delete <br>
 for coupon-validation: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/apply-coupon/ <br>
-Set it to post and format as follows:
-{
-    "product_id": 1,
-    "coupon_id": "WELCOME_50",
-    "user_id": 98765
-}
+Set it to post and format as follows:<br>
+{<br>
+    "product_id": 1,<br>
+    "coupon_id": "WELCOME_50",<br>
+    "user_id": 98765<br>
+}<br>
 for the successful entries and logs: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/logs/ <br>
-set it to GET and then entry it to get the log details.
+set it to GET and then entry it to get the log details.<br>
 
 # Requirements:
 Python 3.8+ <br>
@@ -82,36 +82,36 @@ You can access the application here:  <br>
 The end points are for this live application are (Use Psotman API because CORS is not installed for this project): <br>
 for products: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/products/ <br>
 for coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/ <br>
-For coupons:
-Get is used to fetch the check the existing Coupons and POST is used to create Coupon(Post format):
-{
-        "product": 1,
-        "coupon_id": "Check-1",
-        "discount": 1,
-        "user_ids": "",
-        "expiry_date": "2024-12-27 10:25:00"
-}
-user_ids can be empty such that all users have access and for only specific persons if required it should be added as string with coma(,) for example "user_ids": "1,2,3,4,5"
-and expiry date as "yyyy-mm-dd hr:mins:secs"
-edit or delete coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/9/
-It can be 8 or 1 or 2 any coupon's id
-For edit set PUT and format as follows:
-{
-    "id": 9,
-    "product": 2,
-    "coupon_id": "NewCoupon-90",
-    "discount": "91.00",
-    "user_ids": "",
-    "expiry_date": "2024-12-27 10:25:00"
-}
-For delete put it to delete 
+For coupons: <br>
+Get is used to fetch the check the existing Coupons and POST is used to create Coupon(Post format): <br>
+{<br>
+        "product": 1,<br>
+        "coupon_id": "Check-1",<br>
+        "discount": 1,<br>
+        "user_ids": "",<br>
+        "expiry_date": "2024-12-27 10:25:00"<br>
+}<br>
+user_ids can be empty such that all users have access and for only specific persons if required it should be added as string with coma(,) for example "user_ids": "1,2,3,4,5"<br>
+and expiry date as "yyyy-mm-dd hr:mins:secs"<br>
+edit or delete coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/9/<br>
+It can be 8 or 1 or 2 any coupon's id<br>
+For edit set PUT and format as follows:<br>
+{<br>
+    "id": 9,<br>
+    "product": 2,<br>
+    "coupon_id": "NewCoupon-90",<br>
+    "discount": "91.00",<br>
+    "user_ids": "",<br>
+    "expiry_date": "2024-12-27 10:25:00"<br>
+}<br>
+For delete put it to delete <br>
 for coupon-validation: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/apply-coupon/ <br>
-Set it to post and format as follows:
-{
-    "product_id": 1,
-    "coupon_id": "WELCOME_50",
-    "user_id": 98765
-}
+Set it to post and format as follows:<br>
+{<br>
+    "product_id": 1,<br>
+    "coupon_id": "WELCOME_50",<br>
+    "user_id": 98765<br>
+}<br>
 for the successful entries and logs: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/logs/ <br>
-set it to GET and then entry it to get the log details.
+set it to GET and then entry it to get the log details.<br>
 # if any queries contact me: yuvaprakashsai@gmail.com or [LinkedIn](https://www.linkedin.com/in/yuvaprakashsai-gunupuru)
