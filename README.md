@@ -5,7 +5,7 @@ This is a Django-based web application that allows users to generate and validat
 If there is any problem with requirements or setup you can directly checkout the functinalities through Live Application deployed through Vercel using this repository.<br>
 You can access the application here:  <br>
 [https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/](https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/) <br>
-The end points are for this live application are (Use Psotman API because CORS is not installed for this project): <br>
+The end points are for this live application are (Use Postman API because CORS is not installed for this project): <br>
 for products: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/products/ <br>
 for coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/ <br>
 For coupons: <br>
@@ -79,7 +79,7 @@ for the successful entries and logs: host_name(like localhost/127.0.0.1:8000)/lo
 If there is any problem with requirements or setup you can directly checkout the functinalities through Live Application deployed through Vercel using this repository.<br>
 You can access the application here:  <br>
 [https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/](https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/) <br>
-The end points are for this live application are (Use Psotman API because CORS is not installed for this project): <br>
+The end points are for this live application are (Use Postman API because CORS is not installed for this project): <br>
 for products: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/products/ <br>
 for coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/ <br>
 For coupons: <br>
