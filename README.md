@@ -18,9 +18,9 @@ Then, Activate the virtual environment:
 4. Install Dependencies:
 ```pip install -r requirements.txt```
 5. Set Up Database
-Update the DATABASES setting in settings.py which is located in coupon_generator folder
-in 83 line number        'PASSWORD':  os.getenv('DB_PASSWORD'), change os.getenv('DB_PASSWORD') into 'AVNS_w89S4hCIWmS04k8xhlB'
-6. Run the Server:
+A online PostgreSQL is setuped already you can check it in settings.py (No need to do anything)
+Just change DEBUG = False to DEBUG = True in line number 26 in settings.py
+7. Run the Server:
 Start the development server:
 ```python manage.py runserver```
 
