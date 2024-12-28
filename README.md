@@ -9,7 +9,7 @@ The end points are for this live application are (Use Postman API because CORS i
 for products: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/products/ <br>
 for coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/ <br>
 For coupons: <br>
-Get is used to fetch the check the existing Coupons and POST is used to create Coupon(Post format): <br>
+Get is used to fetch and check the existing Coupons and POST is used to create Coupon(Post format): <br>
 {<br>
         "product": 1,<br>
         "coupon_id": "Check-1",<br>
@@ -83,7 +83,7 @@ The end points are for this live application are (Use Postman API because CORS i
 for products: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/products/ <br>
 for coupons: https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/coupons/ <br>
 For coupons: <br>
-Get is used to fetch the check the existing Coupons and POST is used to create Coupon(Post format): <br>
+Get is used to fetch and check the existing Coupons and POST is used to create Coupon(Post format): <br>
 {<br>
         "product": 1,<br>
         "coupon_id": "Check-1",<br>
