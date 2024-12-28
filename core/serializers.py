@@ -10,7 +10,7 @@ class CouponSerializer(serializers.ModelSerializer):
     expiry_date = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
     class Meta:
         model = Coupon
-        fields = ['id', 'product_id', 'coupon_id', 'discount', 'user_ids', 'expiry_date']
+        fields = ['id', 'product', 'coupon_id', 'discount', 'user_ids', 'expiry_date']
 
 class CouponUsageLogSerializer(serializers.ModelSerializer):
     coupon_used = serializers.CharField(source='coupon.coupon_id')
