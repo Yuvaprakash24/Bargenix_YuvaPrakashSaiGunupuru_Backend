@@ -1,7 +1,8 @@
 # Coupon Generator Project
 This is a Django-based web application that allows users to generate and validate coupons. The project includes features for creating coupons, associating them with products, and ensuring they are validated based on the specific user.
-If there is any problem with requirements or setup you can directly checkout the functinalities through Live Application deployed through Vercel using this repository.
+
 ## Live Application
+If there is any problem with requirements or setup you can directly checkout the functinalities through Live Application deployed through Vercel using this repository.<br>
 You can access the application here:  <br>
 [https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/](https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/) <br>
 The end points are for this live application are: <br>
@@ -45,8 +46,9 @@ edit or delete coupons: host_name(like localhost/127.0.0.1:8000)/coupons/<int:pk
 for coupon-validation: host_name(like localhost/127.0.0.1:8000)/apply-coupon/ <br>
 for the successful entries and logs: host_name(like localhost/127.0.0.1:8000)/logs/ <br>
 
-If there is any problem with requirements or setup you can directly checkout the functinalities through Live Application deployed through Vercel using this repository.
+
 ## Live Application
+If there is any problem with requirements or setup you can directly checkout the functinalities through Live Application deployed through Vercel using this repository.<br>
 You can access the application here:  <br>
 [https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/](https://bargenix-yuva-prakash-sai-gunupuru-backend.vercel.app/) <br>
 The end points are for this live application are: <br>
